@@ -1,0 +1,3 @@
+requests
+jsonpath_ng
+git+https://github.com/johanlundahl/pytils.git
