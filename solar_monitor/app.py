@@ -20,6 +20,8 @@ def run():
     manager = PanelManager('url-to-persistance', max_value.energy,
                            cfg.slack_url)
 
+    print(f'Checking {len(panels)} panels')
+
     for panel in panels:
         manager.handle(panel)
 
