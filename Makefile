@@ -4,7 +4,7 @@ CURRENT_DIR := $(dir $(MKFILE_PATH))
 
 
 init:
-	sudo pip3 install -r requirements.txt
+	python3 -m pip install -r requirements.txt
 	chmod +x solar_monitor/app.py
 
 run:
